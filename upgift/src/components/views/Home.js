@@ -51,7 +51,6 @@ class Home extends Component {
             <div>
             <Header user={JSON.parse(sessionStorage.getItem('user'))} logout={this.logout}/>
             <div className="container mt-5">
-            <button type="button" className="btn btn-primary btn-sm px-2 ml-3 mb-5 " onClick={this.logout}>Logga ut</button>
                 <h1>Welcome to Home</h1>
             </div>   
             </div>

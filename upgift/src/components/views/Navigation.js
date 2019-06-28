@@ -30,7 +30,7 @@ class Navigation extends Component {
                                 <NavLink exact to="/profile" activeClassName="active" className="nav-link">{ UserName }</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link"
+                                <a className="nav-link" href = "#"
                                 onClick={this.props.logout}>Logga ut</a>
                             </li>
                         </ul>
